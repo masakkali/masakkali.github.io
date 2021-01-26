@@ -6,6 +6,20 @@ body {
 	overflow-x:hidden;
 	line-height:1.5;
 }
+/* .navbar-brand{
+	position: static;
+    /* background: url(../lo); */
+    width: 150px;
+	left: 10px;
+	background-size: contain;
+} */
+/* .logo-image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+} */
 a {
 	color:#3498db;
 	cursor:pointer;
@@ -379,7 +393,7 @@ label {
 	width:100%;
 	top:0;
 	position:fixed;
-	background-image:url(http://unsplash.it/1600/600?random=1);
+	background-image:url(../../bg-fla.jpeg);
 	background-position:center center;
 	background-repeat:no-repeat;
 	-webkit-background-size: cover;
