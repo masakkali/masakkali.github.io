@@ -478,7 +478,7 @@ label {
 
 /*	Gallery	==================================================*/ 
 
-#gallery img {
+/* #gallery img {
 	width:100%;
 	height:auto;
 		transition:all .3s ease-in-out;
@@ -514,7 +514,7 @@ label {
 }
 #gallery a.btn {
 	display:inline-block;
-}
+} */
 /*	Faq==================================================*/ 
 #faq {
 	background-color:#F9FAFD;
@@ -656,6 +656,84 @@ label {
 #success,#error {
 	display:none
 }
+#submit{
+	background-color: white;
+	border-radius: 10%;
+
+}
+.con{
+	display: flex;
+	width: 100%;
+	padding: 4% 2%;
+	box-sizing: border-box;
+	height: 100vh;
+	background-color: #A495E3;
+  }
+  
+.box {
+	flex: 1;
+	overflow: hidden;
+	transition: .5s;
+	margin: 0 2%;
+	box-shadow: 0 20px 10px rgba(224, 217, 217, 0.1);
+	line-height: 0;
+  }
+  
+.box > img {
+	width: 200%;
+	height: calc(100% - 10vh);
+	object-fit: cover; 
+	transition: .5s;
+  }
+  
+.box > span {
+	font-size: 3.8vh;
+	display: block;
+	text-align: center;
+	height: 10vh;
+	line-height: 2.6;
+  }
+  
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+	width: 100%;
+	height: 100%;
+  }
+   
+#submit {
+	background: #E8EAED;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #D63EE3;
+	font-family:normal 16px "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif ;
+	font-size: 20px;
+	font-weight: 100;
+	padding: 10px;
+
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+ }
+ 
+#submit:hover {
+	border: solid #F17EAF 1px;
+	background: #DEE6F1;
+	background-image: -webkit-linear-gradient(top, #DEE6F1, #C2ADD3);
+	background-image: -moz-linear-gradient(top, #DEE6F1, #C2ADD3);
+	background-image: -ms-linear-gradient(top, #DEE6F1, #C2ADD3);
+	background-image: -o-linear-gradient(top, #DEE6F1, #C2ADD3);
+	background-image: -webkit-gradient(to bottom, #DEE6F1, #C2ADD3);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	text-decoration: none;
+ }
+
 #success span,#erro span {
 	display:block;
 	position:absolute;
